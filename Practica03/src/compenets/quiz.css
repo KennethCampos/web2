@@ -1,0 +1,54 @@
+/* src/components/Quiz.css */
+.quiz-container, .resultado-container {
+  padding: 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.pregunta {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  margin-top: 5px;
+  padding: 8px;
+  width: 80%;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.correcto {
+  background-color: #d4edda;
+}
+
+.incorrecto {
+  background-color: #f8d7da;
+}
+
+.respuesta-correcta {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-top: 4px;
+}
