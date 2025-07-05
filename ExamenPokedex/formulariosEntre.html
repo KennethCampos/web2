@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+     
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styless.css" />
+  </head>
+  <body>
+        <!-- Barra de menú -->
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">Pokemon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link "  href="/formulariosEntre.html">Agregar Entrenadores</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/formlarioEqui.html">Agregar Equipos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/EntrenadoresPoke.html">Entrenadores</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " href="/EquiposPoke.html">Equipos</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    
+        <!-- Fin de la barra de menú -->
+
+        <div >
+            
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fespadasymas.com%2Fblogs%2Fanime-series-tv%2Fel-fascinante-universo-pokemon-la-magia-detras-de-su-origen-y-personajes%3Fsrsltid%3DAfmBOoqdR7slcq8qB6txfFF--Hk5pGJqtm2WtGRIw52hfkBFhvIGvw1N&psig=AOvVaw3buCc6NvXQEAQjhWdMSGzC&ust=1751760694879000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjTyqK3pI4DFQAAAAAdAAAAABAE" class="img-fluid" alt="" />
+        </div>
+
+        <br></br>
+        
+
+
+        <div class="container mt-5">
+            <h2 class="mb-4 text-center">Agregar Entrenador</h2>
+
+            <form id="formEntrenador" class="card p-4 shadow-sm">
+            <div class="mb-3">
+                <label class="form-label">Nombre completo</label>
+                <input type="text" name="nombre" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Sexo</label>
+                <select name="sexo" class="form-select" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otro">Otro</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Lugar de residencia</label>
+                <input type="text" name="residencia" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">URL de foto</label>
+                <input type="url" name="foto" class="form-control" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Guardar Entrenador</button>
+            </form>
+        </div>
+
+        <script src="/js/bd.js"></script>
+        <script src="/js/formEntre.js"></script>
+
+       
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
